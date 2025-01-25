@@ -7,7 +7,7 @@ from PIL import ImageTk, Image
 
 from predictions import predict
 
-# global variables
+# global variables for bone 
 
 project_folder = os.path.dirname(os.path.abspath(__file__))
 folder_path = project_folder + '/images/'
