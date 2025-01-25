@@ -7,7 +7,7 @@ from PIL import ImageTk, Image
 
 from predictions import predict
 
-# global variables for bone facture detection 
+# global variables for bone facture detection by using CNN
 
 project_folder = os.path.dirname(os.path.abspath(__file__))
 folder_path = project_folder + '/images/'
